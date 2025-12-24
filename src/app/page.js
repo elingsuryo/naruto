@@ -62,7 +62,7 @@ export default function LandingPage() {
             </a>
             {/* Telegram */}
             <a
-              href="https://gmgn.ai/sol/token/ATQ1GtoGdBzBCGRAHa89vXdwDE3G3WCb92hcQ4c8pump"
+              href="https://pump.fun/coin/ATQ1GtoGdBzBCGRAHa89vXdwDE3G3WCb92hcQ4c8pump"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="buy"
@@ -118,7 +118,7 @@ export default function LandingPage() {
           <br />
           {/* Buy Button */}
           <a
-            href="https://gmgn.ai/sol/token/ATQ1GtoGdBzBCGRAHa89vXdwDE3G3WCb92hcQ4c8pump"
+            href="https://pump.fun/coin/ATQ1GtoGdBzBCGRAHa89vXdwDE3G3WCb92hcQ4c8pump"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block"
