@@ -67,7 +67,7 @@ export default function LandingPage() {
               rel="noopener noreferrer"
               aria-label="buy"
             >
-              <button className="px-4 py-2 rounded-lg bg-gradient-to-r from-indigo-600 to-pink-500 text-sm font-semibold">
+              <button className="px-4 py-2 rounded-lg bg-gradient-to-r from-orange-500 to-red-600 text-lg font-bold shadow-[0_0_25px_rgba(255,100,0,0.7)] hover:scale-110 transition-transform">
                 Buy
               </button>
             </a>
