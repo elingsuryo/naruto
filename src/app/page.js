@@ -38,7 +38,9 @@ export default function LandingPage() {
               height={40}
               className="rounded-lg"
             />
-            <h1 className="font-bold text-lg">NARUTO</h1>
+            <h1 className="font-extrabold text-xl text-orange-400 drop-shadow-[0_0_10px_rgba(255,140,0,0.6)]">
+              NARUTO
+            </h1>
           </div>
 
           <div className="flex items-center gap-4">
@@ -89,16 +91,30 @@ export default function LandingPage() {
         {/* Text content */}
         {/* Text content */}
         <div className="relative z-10 max-w-3xl px-6">
-          <h2 className="text-4xl md:text-6xl font-extrabold leading-tight mb-6">
-            Everyone Love <span className="text-yellow-500">$NARUTO</span>
-          </h2>
+          <motion.h2
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8 }}
+            className="text-4xl md:text-6xl font-extrabold leading-tight mb-6"
+          >
+            Everyone Loves{" "}
+            <span className="text-orange-400 drop-shadow-[0_0_15px_rgba(255,140,0,0.8)]">
+              $NARUTO
+            </span>
+          </motion.h2>
+          <p className="text-lg md:text-xl mb-8 italic text-slate-200">
+            “If you wait me to give up, so you will be waiting forever.”
+            <br />— <span className="text-orange-400">Uzumaki Naruto</span>
+          </p>
+
           {/* Contract Address */}
-          <div className="inline-flex items-center gap-2 bg-slate-900/70 border border-slate-700 px-4 py-2 rounded-lg mb-6">
-            <span className="text-sm text-slate-400">CA</span>
+          <div className="inline-flex items-center gap-2 bg-black/60 border border-orange-500/30 px-4 py-2 rounded-xl mb-6 shadow-[0_0_20px_rgba(255,140,0,0.3)]">
+            <span className="text-sm text-orange-400 font-semibold">CA</span>
             <span className="text-sm md:text-base text-white font-mono break-all">
               -
             </span>
           </div>
+
           <br />
           {/* Buy Button */}
           <a
@@ -107,8 +123,8 @@ export default function LandingPage() {
             rel="noopener noreferrer"
             className="inline-block"
           >
-            <button className="px-6 py-3 rounded-lg bg-gradient-to-r from-pink-600 to-indigo-600 text-lg font-semibold shadow-lg hover:scale-105 transition-transform">
-              BUY
+            <button className="px-8 py-3 rounded-xl bg-gradient-to-r from-orange-500 to-red-600 text-lg font-bold shadow-[0_0_25px_rgba(255,100,0,0.7)] hover:scale-110 transition-transform">
+              BUY $NARUTO
             </button>
           </a>
         </div>
@@ -118,8 +134,8 @@ export default function LandingPage() {
       <section className="relative w-full py-20 bg-gradient-to-b from-slate-900 to-slate-950">
         <div className="max-w-5xl mx-auto px-6 text-center">
           <h2 className="text-3xl md:text-4xl font-extrabold mb-8">
-            <span className="text-white">Naruto is the</span>{" "}
-            <span className="text-pink-500">GOAT</span>
+            <span className="text-orange-400">Naruto</span> is the{" "}
+            <span className="text-white">TRUE GOAT 🦊</span>
           </h2>
 
           <div className="rounded-2xl overflow-hidden shadow-2xl border border-white/10">
