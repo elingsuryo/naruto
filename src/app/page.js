@@ -111,7 +111,7 @@ export default function LandingPage() {
           <div className="inline-flex items-center gap-2 bg-black/60 border border-orange-500/30 px-4 py-2 rounded-xl mb-6 shadow-[0_0_20px_rgba(255,140,0,0.3)]">
             <span className="text-sm text-orange-400 font-semibold">CA</span>
             <span className="text-sm md:text-base text-white font-mono break-all">
-              -
+              ATQ1GtoGdBzBCGRAHa89vXdwDE3G3WCb92hcQ4c8pump
             </span>
           </div>
 
